@@ -3,8 +3,7 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import time
 
-from final.util import draw_graph_static_position
-from util import draw_graph, graph_to_json
+from util import draw_graph, graph_to_json, draw_graph_static_position
 from tests import graph_test_greedy, graph_test_dynamic
 
 global pos
